@@ -2,5 +2,18 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apps/web/ghostnetv1-e2e"
+    },
+    {
+      "path": "./apps/web/ghostnetv1"
+    },
+    {
+      "path": "./apps/web/ghostnetv2-e2e"
+    },
+    {
+      "path": "./apps/web/ghostnetv2"
+    }
+  ]
 }
