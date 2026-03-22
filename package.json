@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@nx/docker": "^22.6.0",
     "@nx/js": "22.6.0",
     "@swc-node/register": "1.11.1",
     "@swc/core": "1.15.8",
@@ -16,6 +16,9 @@
     "typescript": "~5.9.2"
   },
   "workspaces": [
+    "apps/*",
+    "bots/*",
+    "libs/*",
     "packages/*"
   ]
 }
